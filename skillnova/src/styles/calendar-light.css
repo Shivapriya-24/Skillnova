@@ -1,0 +1,47 @@
+.react-calendar {
+  background-color: white !important;
+  color: #000 !important;
+  border: 1px solid #ddd !important;
+  border-radius: 10px;
+}
+
+.react-calendar__navigation button {
+  color: #000 !important;
+  background: #f0f0f0 !important;
+  border: 1px solid #ddd !important;
+}
+
+.react-calendar__month-view__weekdays {
+  color: #666 !important;
+}
+
+.react-calendar__month-view__days__day,
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #333 !important;
+  background: transparent !important;
+}
+
+.react-calendar__tile:hover,
+.react-calendar__tile:focus {
+  background-color: #f0f0f0 !important;
+  color: #000 !important;
+}
+
+.react-calendar__tile--active {
+  background-color: #2196f3 !important;
+  color: white !important;
+  border-radius: 6px;
+}
+
+.calendarSkillsList {
+  color: #333 !important;
+}
+
+.calendarSkillsList li {
+  background-color: #d3eafd !important;
+  color: #333 !important;
+}
+
+.calendarDot {
+  color: #ff5722 !important;
+}

@@ -1,0 +1,90 @@
+.recommendedContainer {
+  margin-top: 0;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 1rem 1.25rem;
+  width: 280px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.title {
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+  color: #222;
+  font-size: 1.1rem;
+}
+
+.description {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+.viewProofButton {
+  background-color: #ed8936 !important; 
+  color: white !important;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 10px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.viewProofButton:hover {
+  background-color: #dd6b20; 
+}
+
+.proofSection {
+  margin-top: 6px;
+  margin-left: 20px;
+}
+
+.proofList {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 4px;
+}
+
+.proofItem {
+  margin-bottom: 4px;
+}
+
+.proofLink {
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.proofLink:hover,
+.proofLink:focus {
+  text-decoration: underline;
+  color: #2c5282; 
+}

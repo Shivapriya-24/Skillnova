@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.leftPane {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leftPane h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.leftPane p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.form {
+  flex: 1;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.form h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.loginBtn {
+  background-color: #28a745;
+  color: white;
+  padding: 14px 0;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.loginBtn:hover {
+  background-color: #218838;
+}
+
+.signupText, .forgotPassword {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.signupText span {
+  color: #28a745;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signupText span:hover {
+  text-decoration: underline;
+}
+
+.forgotPassword span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.forgotPassword span:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0 10px;
+  color: #666;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.socialIcons img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.socialIcons img:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,121 @@
+.profileWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e6e1fa;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 1000px;
+  margin: 30px auto;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  color: #3a2f6f;
+}
+
+.leftPanel {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #d4ccf0;
+  padding:20px;
+  border-radius: 10px;
+  border-right: 2px solid #c2bce7;
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #a698f2;
+  margin-bottom: 15px;
+}
+
+.avatarPlaceholder {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #cbc4ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 64px;
+  margin-bottom: 15px;
+}
+
+.rightPanel {
+  flex: 2;
+  padding-left: 30px;
+}
+
+.sectionTitle {
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+.buttonWrapper {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.saveButton {
+  background-color: #3be374;
+  color: #1a1a1a;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.saveButton:hover {
+  background-color: #31c563;
+}
+
+@media (max-width: 768px) {
+  .profileWrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .rightPanel {
+    padding-left: 0;
+  }
+
+  .buttonWrapper {
+    text-align: center;
+  }
+}

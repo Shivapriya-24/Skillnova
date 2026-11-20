@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.leftPane {
+  flex: 1;
+  color: black;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.leftPane h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.leftPane p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.form {
+  flex: 1;
+  padding: 3rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.form h2 {
+  font-size: 1.8rem;
+}
+
+input {
+  padding: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.checkbox {
+  font-size: 0.9rem;
+  color: #555;
+  display: flex;         
+  align-items: center;     
+  gap: 0.4rem;             
+  margin-top: 1rem;        
+}
+
+.checkbox input {
+  margin: 0;               
+  width: 16px;            
+  height: 16px;
+  cursor: pointer;
+}
+
+.checkbox a {
+  color: #22c55e;
+  text-decoration: none;
+}
+
+.signupBtn {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signupBtn:hover {
+  background-color: #16a34a;
+}
+
+.divider {
+  text-align: center;
+  color: #aaa;
+  margin: 1rem 0;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.socialIcons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.loginText {
+  font-size: 0.95rem;
+  color: #333;
+  text-align: center;
+}
+
+.loginText span {
+  color: #22c55e;
+  font-weight: bold;
+  cursor: pointer;
+}

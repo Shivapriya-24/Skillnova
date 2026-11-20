@@ -1,0 +1,83 @@
+/* App.css */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-accent: #cbc4ec;
+  --color-card: #ffffff; /* solid white for clarity */
+  --color-button: #1a1a1a;
+  --background-image: url('/path/to/your-image.jpg'); /* update path */
+}
+
+body.dark-mode {
+  --color-bg: #2c264b;
+  --color-text: #ffffff;
+  --color-accent: #3a3370;
+  --color-card: #1a1a1a; /* solid dark card */
+  --color-button: #333333;
+  --background-image: url('/path/to/your-dark-image.jpg'); /* optional dark mode bg */
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Background image container */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: var(--background-image);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1; /* Low opacity so text is visible */
+  z-index: -1;
+}
+
+/* Button styles */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color:rgb(74, 182, 222);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.25s, border-color 0.25s;
+}
+
+button:hover {
+  border-color: #535bf2;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #747bff;
+}
+
+.card {
+  background-color: var(--color-card);
+  color: var(--color-text);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.card * {
+  color: var(--color-text);
+}
+

@@ -1,0 +1,59 @@
+.features {
+  padding: 4rem 2rem;
+  background-color: #f9f8fd;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #3a2f6f;
+  margin-bottom: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  border: 1px dashed #cfcbe9;
+  background: white;
+  padding: 2rem 1.5rem;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #3a2f6f;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.step {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #6b63ff;
+  margin-bottom: 0.4rem;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  text-align: center;
+}
+
+.desc {
+  font-size: 0.95rem;
+  color: #6b6b83;
+  line-height: 1.4;
+}

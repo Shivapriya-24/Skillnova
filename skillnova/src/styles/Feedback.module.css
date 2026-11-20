@@ -1,0 +1,138 @@
+.pageWrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #cbc4ec; 
+  transition: background-color 0.3s ease;
+}
+
+.pageWrapper.dark {
+  background-color: #1e3a8a; 
+}
+
+.feedbackCard {
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.feedbackCard.dark .overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.85);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+  color: #222;
+}
+
+.feedbackCard.dark .content {
+  color: #eee;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.moodOptions, .rating {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.moodBtn, .ratingBtn {
+  border: 2px solid transparent;
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+
+.moodBtn.selected, .ratingBtn.selected {
+  background-color: #8b5cf6;
+  color: white;
+}
+
+.feedbackCard.dark .moodBtn.selected,
+.feedbackCard.dark .ratingBtn.selected {
+  background-color: #bb86fc;
+}
+
+.featureList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.featureList label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: inherit;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #222;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.feedbackCard.dark .textarea {
+  background-color: #2a2a2a;
+  color: #eee;
+  border: 1px solid #555;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #7c3aed;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #6d28d9;
+}
+
+.feedbackCard.dark .submitBtn {
+  background-color:#1e3a8a;
+  color: #000;
+}
+
+.feedbackCard.dark .submitBtn:hover {
+  background-color: #9d6cd4;
+}

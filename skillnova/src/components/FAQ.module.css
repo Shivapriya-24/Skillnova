@@ -1,0 +1,50 @@
+.faq {
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: left;
+   width: 100%;
+}
+
+.faq h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3a2f6f;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.container {
+  border-top: 1px solid #ccc;
+}
+
+.item {
+  border-bottom: 1px solid #ccc;
+}
+
+.question {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-weight: 700;
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  color: #3a2f6f;
+}
+
+.answer {
+  font-weight: 500;
+  padding-bottom: 1rem;
+  color: #6b6b83;
+  line-height: 1.4;
+}
+
+.toggle {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #6b63ff;
+}

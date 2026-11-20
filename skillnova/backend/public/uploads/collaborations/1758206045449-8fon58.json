@@ -1,0 +1,9 @@
+{
+  "key": "high-rated-teacher",
+  "title": "Top Rated Teacher",
+  "description": "Maintain an average rating ≥4.8 across 10+ taught sessions",
+  "earned": false,
+  "progress": 0,
+  "earnedAt": null,
+  "icon": "/images/top-rated.jpg"
+}
